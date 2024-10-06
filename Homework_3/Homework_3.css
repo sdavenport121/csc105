@@ -1,0 +1,157 @@
+body {
+	background-color: #e3f6ff;
+}
+
+header {
+	text-align: center;
+	background-color: #403b80;
+	font-weight: bold
+}
+
+
+p {
+	text-align: center;
+	color: #403b80;
+	font-family: georgia;
+			
+}
+			
+h1 {
+	color: #fa916e;
+	font-size: 50pt;
+}
+
+h2 {
+	color: #1d7a6e;
+	font-size: 25pt;
+	text-align: center;
+}
+
+h3 {
+	color: black;
+	text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+table {
+		width: 75%;
+		margin: auto;
+		border: solid;
+		}
+			
+th, td {
+		border: solid;
+		text-align: center;
+		}
+
+th {
+		background-color: #403b80;
+		color: #fa916e;
+		}
+
+
+.indigo {
+	color: #403b80;
+	font-family: georgia;
+}
+
+.peach {
+	color: #fca08d;
+	font-family: georgia;
+
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#books {
+	color: #403b80;
+}
+
+.nomargin {
+	margin: 0px;
+	
+}
+
+#headertitle {
+	padding-bottom: 10px; 
+}
+
+#figuremargin {
+	padding: 10px;
+}
+
+header {
+	border: 6px;
+	border-color: black;
+	border-style: solid;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: gray;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	font-style: italic;
+	color: red;
+} 
+
+#special-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding: 20px;
+}
+
+.bordered-area {
+	flex-grow: 1;
+	border: 3px solid black; 
+	padding: 15px;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+.navlink {
+	font-size: 14pt;
+	background-color: #d8d2fc;
+	padding: 4px;
+	border-color: #403b80;
+	border-style: inset;	
+}
+ 
+.navlink:hover {
+	text-decoration: none;
+	background-color: #947cf7;
+}
+
+.navlink:visited {
+	color: black;
+}
+
+
+.navlink:link {
+	color: gray;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 8px;
+}
