@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+	background-color: #f4f6f6;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 14px;
+}
+
+#todolist {
+    width: 100%;
+    max-width: 400px;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#todolist li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e8f6f3;
+    border: 2px double #16a085;
+    font-size: 16px;
+}
+
+#todolist li button {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+#instruction-area {
+    padding: 15px;
+    background-color: #f9ebea;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 2px double #d98880;
+    text-align: center;
+}
+
+#search-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#search-show-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#search-show-buttons button {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.task-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.input-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bold {
+	font-weight: bold;
+}
