@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact</title>
+		<link rel="stylesheet" href="Final_Project.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="form_validation.js" defer></script>
+	</head>
+<body>
+
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <ul>
+        <li><a href="Final_Project.html">Home</a></li>
+        <li><a href="profiles.html">About the Violinists</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section id="contact" class="contact_form">
+      <h2>Reach out for more information!</h2>
+      <p>If you’d like to learn more about Lisa Batiashvili, David Oistrakh, or Leonidas Kavakos, or other incredible violinists feel free to get in touch using the form below.</p>
+      
+
+		<form id="messageForm" novalidate> 
+
+		<div class="form-section">
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" required>
+			<p id="name_error" class="error_message"></p>
+		</div>
+		<div class="form-section">
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" required>
+			<p id="email_error" class="error_message"></p>
+		</div>
+		<div class="form-section">
+			<label for="message">Message</label>
+			<textarea id="message" name="message" maxlength="300" required></textarea>
+			<p id="message_error" class="error_message"></p>
+		</div>
+		<button type="submit">Send Message</button>
+		</form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Susannah's Violinist Tribute</p>
+  </footer>
+</body>
+</html>
